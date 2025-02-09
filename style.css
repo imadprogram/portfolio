@@ -275,6 +275,26 @@ body {
     .social-icons {
         justify-content: center;
     }
+    .navbar{
+        display: none;
+    }
+    .hero{
+        padding: 0px;
+    }
+    .hero-content{
+        padding-top: 0;
+    }
+    .hero-image img{
+        width: 18em;
+    }
+    .animated-text{
+        font-size: 30pt;
+        display: flex;
+        padding-left: 20px;
+    }
+    .animated-text .word{
+        margin-left: 15px;
+    }
 }
 
 
