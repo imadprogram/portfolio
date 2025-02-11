@@ -10,13 +10,10 @@ function updateWord() {
 
 setInterval(updateWord, 2000); // Change word every 2 seconds
 
-// Select the navbar element
-
-
 // Add a scroll event listener
 window.addEventListener("scroll", function () {
   let navbar = document.querySelector('.navbar');
   if (window.scrollY >  1) { // Adjust the scroll value as needed
       navbar.classList.add("scroll"); // Add class when scrolling down
-  
+  }
 });
