@@ -291,8 +291,7 @@ body {
         font-size: 30pt;
         display: flex;
         padding-left: 20px;
-        width: 100%;
-        justify-content: center;
+        
     }
     .animated-text .word{
         margin-left: 15px;
